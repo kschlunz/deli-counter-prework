@@ -22,5 +22,5 @@ def take_a_number(katz_deli, name)
   new_line.each.with_index(1) do |person, index|
 
     puts "Welcom, #{person}. You are number #{index} in line."
-  end 
+  end
   end
