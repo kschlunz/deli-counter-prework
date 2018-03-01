@@ -20,8 +20,8 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
 
-  katz_deli.each.with_index(1) do |person, index|
+  |
 
-    puts "Welcome, #{person}. You are number #{index} in line."
+    puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
   end
   end
