@@ -19,8 +19,8 @@ def take_a_number(katz_deli, name)
   new_line = []
   new_line.push(name)
 
-  new_line.each.with_index do |person, index|
+  new_line.each.with_index(1) do |person, index|
 
-    puts "Welcom, #{person}. You are number"
+    puts "Welcom, #{person}. You are number #{index} in line."
   end 
   end
