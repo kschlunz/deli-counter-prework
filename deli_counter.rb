@@ -28,8 +28,8 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
 
   else
-    first_person = katz_deli.first
+    first_person = katz_deli.shift
     puts "Currently serving #{first_person}."
   end
-  first_person
+    first_person
 end
