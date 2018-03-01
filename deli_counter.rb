@@ -19,5 +19,5 @@ def take_a_number(katz_deli, name)
   new_line = []
   new_line.push(name)
 
-    puts new_line
+    puts "Welcom, #{new_line}. You are number"
   end
