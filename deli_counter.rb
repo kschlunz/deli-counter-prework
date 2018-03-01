@@ -29,7 +29,7 @@ def now_serving(katz_deli)
 
   else
     first_person = katz_deli.first
-    puts "Currently serving #{first_person}"
+    puts "Currently serving #{first_person}."
   end
   katz_deli
 end
